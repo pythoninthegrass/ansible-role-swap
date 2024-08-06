@@ -13,10 +13,4 @@
       when: ansible_os_family == 'Debian'
 
   roles:
-    # - role: geerlingguy.swap
-    # - name: geerlingguy.swap
-    #   src: https://github.com/geerlingguy/ansible-role-swap.git
-    #   version: master
-    - name: geerlingguy.swap
-      src: https://github.com/pythoninthegrass/ansible-role-swap.git
-      version: master
+    - role: geerlingguy.swap
